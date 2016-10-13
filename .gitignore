@@ -1,0 +1,8 @@
+*.swp
+temp
+jenkins-cli.jar
+jenkins_kata
+jenkins_kata.pub
+workflowLibs
+apache-tomcat-*
+.bak
