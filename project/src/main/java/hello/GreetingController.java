@@ -12,7 +12,7 @@ public class GreetingController {
     @RequestMapping("/hello")
     public Map<String, Object> hello() {
         HashMap<String, Object> body = new HashMap<>();
-        body.put("message", "hello ppap");
+        body.put("message", "hello ppap.");
         return body;
     }
 
