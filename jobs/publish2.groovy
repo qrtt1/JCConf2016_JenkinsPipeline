@@ -1,3 +1,3 @@
 node {
-    deployTo job: "build", war: "jenkins-sample-project.war", context: "Demo2"
+    deployTo job: "build-project", war: "jenkins-sample-project.war", context: "Demo2"
 }

@@ -1,5 +1,5 @@
 node {
-    def job = "build"
+    def job = "build-project"
     def war = "jenkins-sample-project.war"
     def deployPath = "/Users/qrtt1/temp/JenkinsPipelineKata/apache-tomcat-8.5.6/webapps"
     stage ('Deploy') {
