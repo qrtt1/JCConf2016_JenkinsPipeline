@@ -1,7 +1,7 @@
 node {
     stage ('checkout') {
         echo 'checkout from git from another-build'
-        git url: 'git@github.com:qrtt1/JCConf2016_JenkinsPipeline.git'
+        git url: 'git@github.com:qrtt1/JCConf2016_JenkinsPipeline.git',
             branch: 'demo'
     }
 
