@@ -4,7 +4,7 @@
 
 ### 取得 Jenkins
 
-由 Jenkins 官網下載 WAR 檔或使用此專案事先下載的 v2.19.1 版的 [jenkins.war](downloads/jenkins.war)。
+由 Jenkins 官網下載 WAR 檔。
 
 ### 啟動 Jenkins
 
