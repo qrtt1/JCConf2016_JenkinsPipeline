@@ -1,8 +1,8 @@
 node {
     stage ('checkout') {
         echo 'checkout from git'
-        git url: 'https://qrtt1@bitbucket.org/qrtt1/jenkinskata.git'
-            branch: 'master'
+        git url: 'git@github.com:qrtt1/JCConf2016_JenkinsPipeline.git'
+            branch: 'demo'
     }
 
     dir ('project') {
